@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commars / Online Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+   
+</head>
+<body>
+
+    <!-- >>>>>>>nav bar Start<<<<< -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-info fs-3 ms-3" href="#">E-Sale </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              
+              
+                <li class="nav-item ">
+                <a class="nav-link active ms-5" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Menu</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#product">All Product</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#all_catagory">All Catagory</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+
+
+
+              <li class="nav-item dropdown">
+                <a  class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                  Chose Item
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">T-Shart</a></li>
+                  <li><a class="dropdown-item" href="#">Jeans Pant</a></li>
+                  <li><a class="dropdown-item" href="#">Watch</a></li>
+                  <li><a class="dropdown-item" href="#">Shoe</a></li>
+                  <li><a class="dropdown-item" href="#">Elactronic Gadget</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">All  Product</a></li>
+                  <li><a class="dropdown-item" href="#">Popular Product</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+
+
+
+            <form class="d-flex me-4">
+              <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- >>>>>>>nav bar end<<<<< -->
+
+
+
+      <!-- >>>>>>>>>>>>>>>slid start<<<<<<<<<<<< -->
+
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner mt-5">
+          <div class="carousel-item active">
+            <img src="c2.jpg" class="d-block w-100" alt="Not Found">
+            
+            
+          </div>
+          <div class="carousel-item">
+            <img src="003.jpg" class="d-block w-100" alt="Not Found">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="004.jpg" class="d-block w-100" alt="Not Found">
+          
+          </div>
+          <div class="carousel-item">
+            <img src="005.jpg" class="d-block w-100 " alt="Not Found">
+          
+          </div>
+          <div class="carousel-item">
+            <img src="006.jpg" class="d-block w-100 " alt="Not Found">
+            
+          </div>
+
+          <div class="carousel-item">
+            <img src="007.jpg" class="d-block w-100 " alt="Not Found">
+           
+          </div>
+
+          <div class="carousel-item">
+            <img src="008.jpg" class="d-block w-100 " alt="Not Found">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="w3.jpeg" class="d-block w-100 " alt="Not Found">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="f1.jpg" class="d-block w-100 " alt="Not Found">
+            
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+        <!-- >>>>>>>>>>>>>>>slid end<<<<<<<<<<<< -->
+
+
+
+
+
+          <!-- >>>>>>>>>>>>>>> All Product start<<<<<<<<<<<< -->
+
+
+          <br>
+
+          <h2 id="product"> All Product</h2>
+
+          <br>
+
+
+          <div class="row row-cols-1 row-cols-md-5 g-2">
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/mdc/5a9ee58aa1c808d435b48d4428930c46.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jama</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 1250.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/e52365950c9b202a72b74affd174c224.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> worless Headphone</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 1250.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/625367dc3ed326107515bb601ddf4a86.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">T-Shart</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 1250.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/mdc/9eef152b81029a2712c9f93639476c96.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Light</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 1250.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/b4d98307b77c93955c2401a12fcc1301.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">White Cotton Casual Shirt For Men</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 1,150.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <br>
+
+
+
+          <div class="row row-cols-1 row-cols-md-5 g-2">
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/f38e510ac9515addbb82c20da447a6ad.jpg_200x200q80.jpg_.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Frog</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer This is a longer card with supporting text below as a  content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 1250.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/ef0a866ebf4450052f8416398803b3a9.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jecat</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 1,750.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/a12e5e262f4eea1fe40aa8c5a44aed34.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Shart</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 550.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/4b839cfe257b467c63fd4ecbe125f337.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Elaxa</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 2,550.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/6b773fe84ee4ab47cc681b78307a33a8.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Drees</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 1,550.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <br>
+
+
+
+          <div class="row row-cols-1 row-cols-md-5 g-2">
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://df17fp68uwcso.cloudfront.net/eyJidWNrZXQiOiJtZWRpYS5ldmFseS5jb20uYmQiLCJrZXkiOiJtZWRpYS9pbWFnZXMvMjkxM2ExOGM3YTgwLTM1MDAwMDAyNDguanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiYXV0byIsImhlaWdodCI6ImF1dG8iLCJmaXQiOiJjb250YWluIn0sImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9LCJmbGF0dGVuIjp0cnVlLCJqcGVnIjp7InF1YWxpdHkiOjkwfX19" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rice Pack</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 250.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://df17fp68uwcso.cloudfront.net/eyJidWNrZXQiOiJtZWRpYS5ldmFseS5jb20uYmQiLCJrZXkiOiJtZWRpYS9pbWFnZXMvMmE4ZmJjMzUxOGM2LTAyLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ImF1dG8iLCJoZWlnaHQiOiJhdXRvIiwiZml0IjoiY29udGFpbiJ9LCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfSwiZmxhdHRlbiI6dHJ1ZSwianBlZyI6eyJxdWFsaXR5Ijo5MH19fQ==" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Shoe</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 800.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://media.power-cdn.net/images/h-ebfa3ab4bb8131c96dbf26ae5027de91/products/985928/985928_1_600x600_w_g.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rauter</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                  <p> <b> ৳ 1,850.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://df17fp68uwcso.cloudfront.net/eyJidWNrZXQiOiJtZWRpYS5ldmFseS5jb20uYmQiLCJrZXkiOiJtZWRpYS9pbWFnZXMvNWFmYzIxMjY1NTY0LTYucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiYXV0byIsImhlaWdodCI6ImF1dG8iLCJmaXQiOiJjb250YWluIn0sImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9LCJmbGF0dGVuIjp0cnVlLCJqcGVnIjp7InF1YWxpdHkiOjkwfX19" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Camera</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 2,250.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://df17fp68uwcso.cloudfront.net/eyJidWNrZXQiOiJtZWRpYS5ldmFseS5jb20uYmQiLCJrZXkiOiJtZWRpYS9pbWFnZXMvMmY1ZDYwZjIxZTNiLTMxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ImF1dG8iLCJoZWlnaHQiOiJhdXRvIiwiZml0IjoiY29udGFpbiJ9LCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfSwiZmxhdHRlbiI6dHJ1ZSwianBlZyI6eyJxdWFsaXR5Ijo5MH19fQ==" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lux</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                  <p> <b> ৳ 50.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <br>
+
+
+
+          <div class="row row-cols-1 row-cols-md-5 g-2">
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://df17fp68uwcso.cloudfront.net/eyJidWNrZXQiOiJtZWRpYS5ldmFseS5jb20uYmQiLCJrZXkiOiJtZWRpYS9pbWFnZXMvNjYxZGE1OGJmNmJjLXRlbXBsYXRlLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ImF1dG8iLCJoZWlnaHQiOiJhdXRvIiwiZml0IjoiY29udGFpbiJ9LCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfSwiZmxhdHRlbiI6dHJ1ZSwianBlZyI6eyJxdWFsaXR5Ijo5MH19fQ==" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rupchanda Soyabean Oil - 5 Liter - 2400019</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. .</p>
+                  <p> <b> ৳ 520.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://df17fp68uwcso.cloudfront.net/eyJidWNrZXQiOiJtZWRpYS5ldmFseS5jb20uYmQiLCJrZXkiOiJtZWRpYS9pbWFnZXMvYmUxZGFhOGE0YjQ0LWctZGcuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiYXV0byIsImhlaWdodCI6ImF1dG8iLCJmaXQiOiJjb250YWluIn0sImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9LCJmbGF0dGVuIjp0cnVlLCJqcGVnIjp7InF1YWxpdHkiOjkwfX19" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nokia phone</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 10,000.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/mdc/d143c6c5d3a457d7d957426dc9a0b6c8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DUOYA Women Girls Vintage Wrist Watch</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content..</p>
+                  <p> <b> ৳ 350.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/3f459f6cddc37256fbd72dc5fb0ff264.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Multilayer Bracelet for Men Leather 4Pcs</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 90.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/e86244b0f6da75a516aac57bb4c4e913.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Exclusive Collection I Cotton Double Size Panel Bedsheet</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 495.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          
+
+          <br>
+
+
+
+          <div class="row row-cols-1 row-cols-md-5 g-2">
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://df17fp68uwcso.cloudfront.net/eyJidWNrZXQiOiJtZWRpYS5ldmFseS5jb20uYmQiLCJrZXkiOiJtZWRpYS9pbWFnZXMvNjM4Y2NlNGRjYWU3LTI5LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NDAwLCJoZWlnaHQiOjQwMCwiZml0IjoiY29udGFpbiJ9LCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfSwiZmxhdHRlbiI6dHJ1ZSwianBlZyI6eyJxdWFsaXR5Ijo5MH19fQ==" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">  Backpack Espiral AGC 1201- Blue</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content..</p>
+                  <p> <b> ৳ 1,050.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/943fd98725c297eeb251b066ded4ed7d.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Samsung Galaxy M21 - 4GB RAM/64GB ROM</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. .</p>
+                  <p> <b> ৳ 18,999.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/eee62502ee38637fc069f07994a264e9.png_200x200q80.jpg_.webp " class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ESP LTD MH-10 Electric Guitar</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.sdfsdsddd ddddd sdf</p>
+                  <p> <b> ৳ 26,950.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/68bafdb1c7740b4c36286ef860f5b640.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Xiaomi Mi 4A 32"Smart Android TV</h5>
+                  <p class="card-text">his is a longer card with supporting text below as a natural lead-in to additional content. </p>
+                  <p> <b> ৳ 21,850.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://static-01.daraz.com.bd/p/962c37c2404ff1a081a4c896423fb9d2.jpg_200x200q80-product.jpg_.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sunglass</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p> <b> ৳ 390.00 </b> </p>
+                  <button type="button" class="btn btn-outline-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <br>
+         
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <button class="btn btn-primary me-md-2" type="button">View All Product</button>
+            
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- >>>>>>>>>>>>>>>All Product end<<<<<<<<<<<< -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- >>>>>>>>>>>>>>now uploded product section start <<<<<<<<<<<<< -->
+
+
+        <br>
+        <br>
+        
+        
+
+        <h2 id="all_catagory"> All Catagory Product List</h2>
+        <br>
+        <br>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="sh1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Shart Collaction</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button type="button" class="btn btn-dark btn-outline-info">More All Collaction</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 1 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="s1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sari Collaction</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button type="button" class="btn btn-dark btn-outline-info">More All Collaction</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="fo1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fotuya Collaction</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button type="button" class="btn btn-dark btn-outline-info">More All Collaction</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 5 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <br>
+
+
+
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="w001.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Watch Collaction</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button type="button" class="btn btn-dark btn-outline-info">More All Collaction</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 0 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="j1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jins Pant Collaction</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button type="button" class="btn btn-dark btn-outline-info">More All Collaction</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 2 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="cos1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cosmatic Collaction</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button type="button" class="btn btn-dark btn-outline-info">More All Collaction</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="she1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Shoe Collaction</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button type="button" class="btn btn-dark btn-outline-info">More All Collaction</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 0 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="mobile1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Phone Collaction</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button type="button" class="btn btn-dark btn-outline-info">More All Collaction</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 2 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="elc1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Elactronic Collaction</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <button type="button" class="btn btn-dark btn-outline-info">More All Collaction</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- >>>>>>>>>>>>>> now uploded product section end <<<<<<<<<<<<< -->
+
+
+
+        <!-- Commant section start -->
+        <!-- Commant section End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- >>>>>>>page number start<<<<<<<<<<< -->
+
+         <!-- <div class="btn-toolbar position-absolute bottom-0 start-50 translate-middle-x" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-primary">1</button>
+              <button type="button" class="btn btn-primary">2</button>
+              <button type="button" class="btn btn-primary">3</button>
+              <button type="button" class="btn btn-primary">4</button>
+            </div> -->
+
+        <!-- >>>>>>>page number start<<<<<<<<<<< -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
